@@ -60,7 +60,7 @@ body {
     font-family: "微软雅黑";
     font-weight: bolder;
     background-color: #e6efdb;
-    color: rgb(51, 51, 51);
+    color: #1a1a1a;
     line-height: 1.6;
 }
 
@@ -131,7 +131,7 @@ h1 {
     font-size: 2.25em;
     line-height: 1.2;
     border-bottom: 1px solid #eee;
-    color: #db3f18;
+    color: #e74820;
 }
 
 h2 {
@@ -144,7 +144,7 @@ h2 {
 h3 {
     font-size: 1.5em;
     line-height: 1.43;
-    color: rgb(214, 54, 120);
+    color: rgb(241, 45, 127);
 }
 
 h4 {
@@ -511,4 +511,10 @@ footer {
     pre {
         word-wrap: break-word;
     }
+}
+
+/* 修改 #define 的颜色 */
+.cm-s-inner .cm-meta,
+.md-fences .cm-meta {
+    color: #900adf!important;
 }
