@@ -71,7 +71,7 @@ body {
     padding-bottom: 100px;
 
     border: 1px solid #d0d0d0;
-    background-color: #ffffff;
+    background-color: #f0eeee;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -131,35 +131,35 @@ h1 {
     font-size: 2.25em;
     line-height: 1.2;
     border-bottom: 1px solid #eee;
-    color: #bb3500;
+    color: #db3f18;
 }
 
 h2 {
     font-size: 1.75em;
     line-height: 1.225;
     border-bottom: 1px solid #eee;
-    color: #5743db;
+    color: #351bd8;
 }
 
 h3 {
     font-size: 1.5em;
     line-height: 1.43;
-    color: rgb(226, 45, 172);
+    color: rgb(214, 54, 120);
 }
 
 h4 {
     font-size: 1.25em;
-    color: #21a1f0;
+    color: #22e608;
 }
 
 h5 {
     font-size: 1em;
-    color: #244af1;
+    color: #32d6ff;
 }
 
 h6 {
     font-size: 1em;
-    color: #777;
+    color: #7a6c6c;
 }
 
 /* =========================
@@ -183,7 +183,7 @@ hr {
     height: 2px;
     padding: 0;
     margin: 16px 0;
-    background-color: #e7e7e7;
+    background-color: #666363;
     border: 0 none;
     overflow: hidden;
     box-sizing: content-box;
@@ -209,14 +209,18 @@ ol:last-child {
 }
 
 blockquote {
-    border-left: 4px solid #ffffff;
+    border-left: 4px solid #a8ff57;
     background-color: #e6e1e6;
-    padding: 0 15px;
+    padding: 1em 1em 1em 1.5em;
     color: #292828;
+    border-radius: 12px;
 }
 
 blockquote blockquote {
-    padding-right: 0;
+    background-color: #f1ecf1;
+    border-radius: 12px;
+    border-left: 4px solid #a8ff57;
+    padding: 0.5em 0.5em 0.5em 1.5em;
 }
 
 /* 加粗 */
@@ -226,8 +230,8 @@ strong {
 
 /* 文字高亮 */
 mark {
-    background: #ffffff;
-    color: #db3f1e;
+   background-color: #FFFF00;
+color: #141100;
     font-weight: bold;
     border-bottom: 0;
     padding: 0;
@@ -379,7 +383,7 @@ code {
 }
 
 .md-task-list-item > input {
-    margin-left: -0.8em !important;
+    margin-left: -1.0em !important;
 }
 
 .md-task-list-item > li .mathjax-block,
